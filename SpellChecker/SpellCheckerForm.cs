@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SpellChecker
 {
-    public partial class Form1 : Form
+    public partial class SpellCheckerForm : Form
     {
-        public Form1()
+        public SpellCheckerForm()
         {
             InitializeComponent();
+        }
+
+        private void buttonCheck_Click(object sender, EventArgs e)
+        {
+            //TODO Добавить обработку входных данных
         }
     }
 }
